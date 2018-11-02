@@ -1,3 +1,3 @@
 # CS3204_WebPortfolio
-
-Github pages test repo
+Link to github pages
+https://lyhvictoria.github.io/CS3204_WebPortfolio/
