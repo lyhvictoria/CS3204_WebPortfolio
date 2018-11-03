@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ark Portfolio</title>
+    <title>StickyKeys Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,8 +46,8 @@
     <div class="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="project-title my-4">Ark
-        <small >Desktop Application</small>
+      <h1 class="project-title my-4">StickyKeys
+        <small >Desktop/Web Game</small>
       </h1>
 
       <!-- Portfolio Item Row -->
@@ -156,13 +156,19 @@
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:500px;overflow:hidden;">
             <div>
-                <img data-u="image" src="img/Ark/Ark_Main_Window.png" />
+                <img data-u="image" src="img/StickyKeys/Main.PNG" />
             </div>
             <div>
-                <img data-u="image" src="img/Ark/Ark_Browser.png" />
+                <img data-u="image" src="img/StickyKeys/Help.PNG" />
             </div>
             <div>
-                <img data-u="image" src="img/Ark/Ark_Popup_Window.png" />
+                <img data-u="image" src="img/StickyKeys/gameplay.PNG" />
+            </div>
+            <div>
+                <img data-u="image" src="img/StickyKeys/gameplay2.PNG" />
+            </div>
+            <div>
+                <img data-u="image" src="img/StickyKeys/Gameover.PNG" />
             </div>
         </div>
         <!-- Bullet Navigator -->
@@ -192,7 +198,7 @@
         
           <div class="col">
           <h3 class="my-3">Project Description</h3>
-          <p>Ark is a delivery management application built during a Software Engineering module (CS2103) in the National University of Singapore.<br>This application's main target audience are delivery companies and online store owners, and aims to help them manage their deliveries. The user interacts with the Ark application via Command Line Interface, and it also has a Graphic User Interface created by JavaFX.</p>
+          <p>StickyKeys is simple, quick-paced 2 player game where the objective is to survive longer than the other player. Made during <a href="https://itch.io/jam/gamecraft2017">Gamecraft 2017</a>, a yearly 24 hour game development competition hosted by NUS Students' Games Development Group, for NUS students. The main theme for 2017 was "Shift" and after careful cosideration of the word's possible meanings and common uses, StickyKeys was born.</p>
         </div>
 
       </div>
@@ -203,23 +209,26 @@
           <div class="col-md-4 my-4">
             <h3>Project Details</h3>
             <ul>
-              <li>Language: Java</li>
-              <li>Tools: JavaFX, Github</li>
-              <li>Duration: September - November 2017</li>
-              <li>Role: Programmer</li>
+              <li>Language: C#</li>
+              <li>Tools: Unity, Github, Photoshop</li>
+              <li>Duration: December 8 - December 9 2017</li>
+              <li>Role: Game Design, Artist</li>
+              <li>NUS Gamecraft 2017</li>
             </ul>
           </div>
           <div class="col-md-3 my-4">
             <h3>Project Team</h3>
             <ul>
-              <li>Francis Lee</li>
-              <li>Kennard Ng</li>
+              <li>Ang Zhan Yu</li>
+              <li>Fong Wei Zheng</li>
+              <li>Koh Lewis</li>
+              <li>Stanley Tay</li>
               <li>Victoria Lim</li>
-              <li>Kyle Chu</li>
             </ul>
           </div>
           <div class="col my-5">
-              <a class="btn btn-dark btn-xl js-scroll-trigger float-right my-4" href="https://github.com/CS2103AUG2017-T16-B1/main" >View in Github</a>
+              <a class="btn btn-dark btn-xl js-scroll-trigger float-right my-4" href="https://github.com/ZY-Ang/Sticky-Keys" >View in Github</a>
+              <a class="btn btn-dark btn-xl js-scroll-trigger float-right my-4" href="https://zy-ang.itch.io/sticky-keys" >Play the Game</a>
           </div>
       </div>
       <!-- /.row -->
@@ -227,27 +236,28 @@
       <div class="container">
         <div class="process-box row">
           <div class="col-lg">
-            <h3>Google Maps Browser</h3>
+            <h3>Player Characters - Lifty &amp; Rifty</h3>
             <p>
-              Ark includes a built-in google maps browser so that users can easily check up the delivery address location of any parcel simply by clicking on the specific parcel card, eliminating the need to open a seperate window for a map.<br>We decided to use the delivery address postal code for the search, instead of the name of the location in the case that more than one locations have the same name and a mix-up occurs.   
+              Players get to control one character each, and Lifty &amp; Rifty were based on the left and right shift keys on keyboards. Due to the size of the characters relative to the map, each were made to be as distinct from one another so that players are able to quickly and easily identify their player character during gameplay - different face positions, red and blue colour tints, mirrored text and different shift arrow locations. 
             </p>
           </div>
           
           <div class="col-lg-6">
-            <img src="img/Ark/browserselect.gif" width=100% height="100%">
+            <img src="img/StickyKeys/whiteboardLiftyShifty.jpg" width=49%>
+            <img src="img/StickyKeys/Lifty&Shifty.png" width=50%>
           </div>
           </div>
           
         <div class="process-box row">
           <div class="col-lg">
-            <h3>Parcel Status</h3>
+            <h3>PowerUp items</h3>
             <p>
-               Ark makes prioritizing parcels near its due date more easily by colour coding parcel statuses. Parcel can have either of 3 statuses - Delivered (green), Delivering (yellow), Overdue (red), which are automatically updated if overdue.<br>Delivered parcels are also moved to a seperate tab so that users can focus on the more important undelivered parcels.
+               Following the same theme as Lifty &amp; Rifty, each of the powerup items that can be used by the player are also based on existing keys on the keyboard. The specific powerup obtained by each powerup keys are also linked to the actual use of the keys, allowing even first-time players to understand their use. Examples include:<br>Capslock - Increases the characters size<br>Numberlock - Locks the players "shift" power<br>Fastforward - Makes the character move faster
             </p>
           </div>
           
           <div class="col-lg-6">
-            <img src="img/Ark/tabs.gif" width=100% height="100%">
+            <img src="img/StickyKeys/Powerups.png" width=100% height="100%">
           </div>
         </div>
       </div>
